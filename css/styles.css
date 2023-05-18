@@ -1,3 +1,8 @@
+/****** css variables ******/
+
+
+
+
 :root {
     --dominant-text-color: #757575;
     --headings-text-color: #212121;
@@ -9,6 +14,14 @@
     --full-black-color: #000000;
 }
 
+
+
+
+/****** global settings ******/
+
+
+
+
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     background-color: var(--background-color);
@@ -16,6 +29,47 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/****** link settings ******/
+
+
+
 
 .link-home {
     font-family: 'Raleway', sans-serif;
@@ -92,6 +146,14 @@ body {
     color: var(--interactive-object-active-color);
 }
 
+
+
+
+/****** button settings ******/
+
+
+
+
 .filter-buttons .filter-button {
     background-color: var(--light-section-and-button-background-color);
     color: var(--headings-text-color);
@@ -118,6 +180,14 @@ body {
     background-color: var(--interactive-object-active-color);
     color: var(--background-color);
 }
+
+
+
+
+/****** headings and paragraphs settings ******/
+
+
+
 
 .title-text {
     color: var(--background-color);
@@ -198,6 +268,21 @@ body {
     background-color: var(--dark-section-background-color);
 }
 
-ul {
-    list-style: none;
+
+
+
+/****** site geometry settings ******/
+
+
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }

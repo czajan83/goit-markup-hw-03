@@ -286,3 +286,17 @@ a {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate {
+    display: flex;
+}
+
+.contact-header {
+    display: flex;
+}

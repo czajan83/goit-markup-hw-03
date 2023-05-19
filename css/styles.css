@@ -53,6 +53,11 @@ button {
     border-radius: 4px;
 }
 
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -275,11 +280,6 @@ a {
 
 
 
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .container {
     width: 1200px;
